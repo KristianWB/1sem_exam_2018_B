@@ -1,7 +1,7 @@
 public class Billede extends Media {
 
-    String fileType;
-    double pixWidth;
-    double pixHeight;
-    String namePhotographer;
+    String fileType;    //(as jpg, png, gif)
+    double Width;   // in pixels
+    double Height;  // in pixels
+    String Photographer;    // the name
 }

@@ -56,4 +56,14 @@ public class Media {
                 ", fileName='" + fileName + '\'' +
                 '}';
     }
+
+    public void logToConsol() {
+
+        System.out.println(
+                "Asset id is: " + getAssetId() +
+                "\nName is: " + getName() +
+                "\nFile created: " +getCreated()
+
+        );
+    }
 }
