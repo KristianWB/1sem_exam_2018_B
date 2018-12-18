@@ -13,11 +13,7 @@ public class Main {
 
         Test.test(); // Denne linie kalder på metoden test() i filen test.
 
-
-        String folderNavn = "C:\\Users\\Bruger\\IdeaProjects\\proeve\\1sem_exam_2018_B\\media";
-
-        MediaManager.logMediaFolder();
-
+        MediaManager.readMediaFolder("media");
     }
 
 }
