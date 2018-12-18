@@ -5,6 +5,16 @@ public class Video extends Media {
     String resolution;  // (SD, HD)
     String Fotographer; // The name of..
 
+    @Override
+    public void logToConsol() {
+
+        System.out.println(
+                "Asset id is: " + getAssetId() +
+                        "\nName is: " + getName() +
+                        "\nFile created: " + getCreated()
+        );
+    }
+
 }
 
 
