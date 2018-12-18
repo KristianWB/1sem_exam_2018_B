@@ -47,7 +47,6 @@ public class Media {
         this.fileName = fileName;
     }
 
-    @Override
     public String toString() {
         return "Media{" +
                 "assetId=" + assetId +
@@ -66,4 +65,8 @@ public class Media {
 
         );
     }
+
+
+
+
 }

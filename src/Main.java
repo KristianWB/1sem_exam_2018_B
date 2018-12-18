@@ -1,3 +1,5 @@
+import java.io.File;
+
 public class Main {
 
     /* I denne opgave skal jeg åbne Main klassen og kommentere de forskellige linier i den samle main kode
@@ -11,6 +13,12 @@ public class Main {
 
         Test.test(); // Denne linie kalder på metoden test() i filen test.
 
+
+        String folderNavn = "C:\\Users\\Bruger\\IdeaProjects\\proeve\\1sem_exam_2018_B\\media";
+
+        MediaManager.logMediaFolder();
+
     }
+
 }
 
